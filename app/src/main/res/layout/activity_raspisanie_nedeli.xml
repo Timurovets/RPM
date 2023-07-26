@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Raspisanie.RaspisanieNedeli">
+
+    <Button
+        android:id="@+id/KnopkaPonedelnik"
+        android:layout_width="175px"
+        android:layout_height="0px"
+        android:text="ПН"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:onClick="PN"/>
+
+    <Button
+        android:id="@+id/KnopkaVtornik"
+        android:layout_width="175px"
+        android:layout_height="0px"
+        android:layout_marginLeft="5px"
+        android:text="ВТ"
+        app:layout_constraintStart_toEndOf="@+id/KnopkaPonedelnik"
+        app:layout_constraintTop_toTopOf="parent"
+        android:onClick="VT"/>
+
+    <Button
+        android:id="@+id/KnopkaSreda"
+        android:layout_width="175px"
+        android:layout_height="0px"
+        android:layout_marginLeft="5px"
+        android:text="СР"
+        app:layout_constraintStart_toEndOf="@+id/KnopkaVtornik"
+        app:layout_constraintTop_toTopOf="parent"
+        android:onClick="SR"/>
+
+    <Button
+        android:id="@+id/KnopkaChetverg"
+        android:layout_width="175px"
+        android:layout_height="0px"
+        android:layout_marginLeft="5px"
+        android:text="ЧТ"
+        app:layout_constraintStart_toEndOf="@+id/KnopkaSreda"
+        app:layout_constraintTop_toTopOf="parent"
+        android:onClick="CH"/>
+
+    <Button
+        android:id="@+id/KnopkaPatniza"
+        android:layout_width="175px"
+        android:layout_height="0px"
+        android:layout_marginLeft="5px"
+        android:text="ПТ"
+        app:layout_constraintStart_toEndOf="@+id/KnopkaChetverg"
+        app:layout_constraintTop_toTopOf="parent"
+        android:onClick="PT"/>
+
+    <Button
+        android:id="@+id/KnopkaSybbota"
+        android:layout_width="175px"
+        android:layout_height="0px"
+        android:layout_marginLeft="5px"
+        android:text="СБ"
+        app:layout_constraintStart_toEndOf="@+id/KnopkaPatniza"
+        app:layout_constraintTop_toTopOf="parent"
+        android:onClick="SB"/>
+
+    <Button
+        android:id="@+id/Para6_KN"
+        android:layout_width="180dp"
+        android:layout_height="96dp"
+        android:onClick="DobPara6_KN"
+        android:text="Para6_KN"
+        android:textColor="#000000"
+        app:backgroundTint="#FF0000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/Para6_ZN"
+        android:layout_width="180dp"
+        android:layout_height="96dp"
+        android:onClick="DobPara6_ZN"
+        android:text="Para6_ZN"
+        android:textColor="#000000"
+        app:backgroundTint="#5AFF00"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/Para6_KN" />
+
+    <Button
+        android:id="@+id/Para5_KN"
+        android:layout_width="180dp"
+        android:layout_height="94dp"
+        android:text="Para5_KN"
+        android:textColor="#000000"
+        app:backgroundTint="#FF0000"
+        app:layout_constraintBottom_toTopOf="@+id/Para6_KN"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        android:onClick="DobPara5_KN"/>
+
+    <Button
+        android:id="@+id/Para5_ZN"
+        android:layout_width="180dp"
+        android:layout_height="94dp"
+        android:onClick="DobPara5_ZN"
+        android:text="Para5_ZN"
+        android:textColor="#000000"
+        app:backgroundTint="#5AFF00"
+        app:layout_constraintBottom_toTopOf="@+id/Para6_ZN"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/Para5_KN" />
+
+    <Button
+        android:id="@+id/Para4_KN"
+        android:layout_width="180dp"
+        android:layout_height="94dp"
+        android:text="Para4_KN"
+        android:textColor="#000000"
+        app:backgroundTint="#FF0000"
+        app:layout_constraintBottom_toTopOf="@+id/Para5_KN"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        android:onClick="DobPara4_KN"/>
+
+    <Button
+        android:id="@+id/Para4_ZN"
+        android:layout_width="180dp"
+        android:layout_height="94dp"
+        android:onClick="DobPara4_ZN"
+        android:text="Para4_ZN"
+        android:textColor="#000000"
+        app:backgroundTint="#5AFF00"
+        app:layout_constraintBottom_toTopOf="@+id/Para5_ZN"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/Para4_KN" />
+
+    <Button
+        android:id="@+id/Para3_KN"
+        android:layout_width="180dp"
+        android:layout_height="94dp"
+        android:text="Para3_KN"
+        android:textColor="#000000"
+        app:backgroundTint="#FF0000"
+        app:layout_constraintBottom_toTopOf="@+id/Para4_KN"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        android:onClick="DobPara3_KN"/>
+
+    <Button
+        android:id="@+id/Para3_ZN"
+        android:layout_width="180dp"
+        android:layout_height="94dp"
+        android:onClick="DobPara3_ZN"
+        android:text="Para3_ZN"
+        android:textColor="#000000"
+        app:backgroundTint="#5AFF00"
+        app:layout_constraintBottom_toTopOf="@+id/Para4_ZN"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/Para3_KN" />
+
+    <Button
+        android:id="@+id/Para2_KN"
+        android:layout_width="180dp"
+        android:layout_height="94dp"
+        android:text="Para2_KN"
+        android:textColor="#000000"
+        app:backgroundTint="#FF0000"
+        app:layout_constraintBottom_toTopOf="@+id/Para3_KN"
+        app:layout_constraintStart_toStartOf="parent"
+        android:onClick="DobPara2_KN"/>
+
+    <Button
+        android:id="@+id/Para2_ZN"
+        android:layout_width="180dp"
+        android:layout_height="94dp"
+        android:onClick="DobPara2_ZN"
+        android:text="Para2_ZN"
+        android:textColor="#000000"
+        app:backgroundTint="#5AFF00"
+        app:layout_constraintBottom_toTopOf="@+id/Para3_ZN"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/Para2_KN" />
+
+    <Button
+        android:id="@+id/Para1_KN"
+        android:layout_width="180dp"
+        android:layout_height="94dp"
+        android:text="Para1_KN"
+        android:textColor="#000000"
+        app:backgroundTint="#FF0000"
+        app:layout_constraintBottom_toTopOf="@+id/Para2_KN"
+        app:layout_constraintStart_toStartOf="parent"
+        android:onClick="DobPara1_KN"/>
+
+    <Button
+        android:id="@+id/Para1_ZN"
+        android:layout_width="180dp"
+        android:layout_height="94dp"
+        android:onClick="DobPara1_ZN"
+        android:text="Para1_ZN"
+        android:textColor="#000000"
+        app:backgroundTint="#5AFF00"
+        app:layout_constraintBottom_toTopOf="@+id/Para2_ZN"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/Para1_KN" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

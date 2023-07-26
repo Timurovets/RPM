@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/marci/AndroidStudioProjects/RPM/app/src/main/res/drawable/knopka.xml" value="0.1555" />
+        <entry key="..\:/Users/marci/AndroidStudioProjects/RPM/app/src/main/res/drawable/splash_screen.xml" value="0.1205" />
+        <entry key="..\:/Users/marci/AndroidStudioProjects/RPM/app/src/main/res/layout/activity_adminka.xml" value="0.1796875" />
+        <entry key="..\:/Users/marci/AndroidStudioProjects/RPM/app/src/main/res/layout/activity_dobav_gruppu.xml" value="0.1796875" />
+        <entry key="..\:/Users/marci/AndroidStudioProjects/RPM/app/src/main/res/layout/activity_dobav_kabinet.xml" value="0.22" />
+        <entry key="..\:/Users/marci/AndroidStudioProjects/RPM/app/src/main/res/layout/activity_dobav_predmet.xml" value="0.1796875" />
+        <entry key="..\:/Users/marci/AndroidStudioProjects/RPM/app/src/main/res/layout/activity_dobav_predmet_po_prepodu.xml" value="0.1796875" />
+        <entry key="..\:/Users/marci/AndroidStudioProjects/RPM/app/src/main/res/layout/activity_dobav_predmeti_gruppi.xml" value="0.22" />
+        <entry key="..\:/Users/marci/AndroidStudioProjects/RPM/app/src/main/res/layout/activity_dobav_prepoda.xml" value="0.22" />
+        <entry key="..\:/Users/marci/AndroidStudioProjects/RPM/app/src/main/res/layout/activity_dobav_raspisanie_nedeli.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/marci/AndroidStudioProjects/RPM/app/src/main/res/layout/activity_fragment_main1.xml" value="0.17753623188405798" />
+        <entry key="..\:/Users/marci/AndroidStudioProjects/RPM/app/src/main/res/layout/activity_fragment_main2.xml" value="0.17753623188405798" />
+        <entry key="..\:/Users/marci/AndroidStudioProjects/RPM/app/src/main/res/layout/activity_glavnai.xml" value="0.22" />
+        <entry key="..\:/Users/marci/AndroidStudioProjects/RPM/app/src/main/res/layout/activity_glavnai_gruppa.xml" value="0.17753623188405798" />
+        <entry key="..\:/Users/marci/AndroidStudioProjects/RPM/app/src/main/res/layout/activity_glavnai_kabinet.xml" value="0.17753623188405798" />
+        <entry key="..\:/Users/marci/AndroidStudioProjects/RPM/app/src/main/res/layout/activity_glavnai_prosmotr_grupp.xml" value="0.165625" />
+        <entry key="..\:/Users/marci/AndroidStudioProjects/RPM/app/src/main/res/layout/activity_glavnai_prosmotr_kabineta.xml" value="0.165625" />
+        <entry key="..\:/Users/marci/AndroidStudioProjects/RPM/app/src/main/res/layout/activity_informacia_polzovatela.xml" value="0.1796875" />
+        <entry key="..\:/Users/marci/AndroidStudioProjects/RPM/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/marci/AndroidStudioProjects/RPM/app/src/main/res/layout/activity_main_prosmotr_predmet_po_prepodu.xml" value="0.1796875" />
+        <entry key="..\:/Users/marci/AndroidStudioProjects/RPM/app/src/main/res/layout/activity_nastroiki.xml" value="0.1796875" />
+        <entry key="..\:/Users/marci/AndroidStudioProjects/RPM/app/src/main/res/layout/activity_prosmotr_grupp.xml" value="0.15353260869565216" />
+        <entry key="..\:/Users/marci/AndroidStudioProjects/RPM/app/src/main/res/layout/activity_prosmotr_gruppu.xml" value="0.1796875" />
+        <entry key="..\:/Users/marci/AndroidStudioProjects/RPM/app/src/main/res/layout/activity_prosmotr_kabinet.xml" value="0.1796875" />
+        <entry key="..\:/Users/marci/AndroidStudioProjects/RPM/app/src/main/res/layout/activity_prosmotr_pn.xml" value="0.17753623188405798" />
+        <entry key="..\:/Users/marci/AndroidStudioProjects/RPM/app/src/main/res/layout/activity_prosmotr_polzovatela.xml" value="0.1796875" />
+        <entry key="..\:/Users/marci/AndroidStudioProjects/RPM/app/src/main/res/layout/activity_prosmotr_predmet.xml" value="0.1796875" />
+        <entry key="..\:/Users/marci/AndroidStudioProjects/RPM/app/src/main/res/layout/activity_prosmotr_predmet_po_prepodu.xml" value="0.1796875" />
+        <entry key="..\:/Users/marci/AndroidStudioProjects/RPM/app/src/main/res/layout/activity_prosmotr_predmeti_gruppi.xml" value="0.15353260869565216" />
+        <entry key="..\:/Users/marci/AndroidStudioProjects/RPM/app/src/main/res/layout/activity_prosmotr_prepoda.xml" value="0.22" />
+        <entry key="..\:/Users/marci/AndroidStudioProjects/RPM/app/src/main/res/layout/activity_prosmotr_prepodov.xml" value="0.1796875" />
+        <entry key="..\:/Users/marci/AndroidStudioProjects/RPM/app/src/main/res/layout/activity_prosmotr_raspisanie_grupp.xml" value="0.17753623188405798" />
+        <entry key="..\:/Users/marci/AndroidStudioProjects/RPM/app/src/main/res/layout/activity_prosmotr_raspisanie_nedeli.xml" value="0.1" />
+        <entry key="..\:/Users/marci/AndroidStudioProjects/RPM/app/src/main/res/layout/activity_prosmotr_raspisanie_nedeli2.xml" value="0.17753623188405798" />
+        <entry key="..\:/Users/marci/AndroidStudioProjects/RPM/app/src/main/res/layout/activity_prosmotr_vt.xml" value="0.17753623188405798" />
+        <entry key="..\:/Users/marci/AndroidStudioProjects/RPM/app/src/main/res/layout/activity_raspisanie_nedeli.xml" value="0.1" />
+        <entry key="..\:/Users/marci/AndroidStudioProjects/RPM/app/src/main/res/layout/activity_register.xml" value="0.1796875" />
+        <entry key="..\:/Users/marci/AndroidStudioProjects/RPM/app/src/main/res/layout/activity_zagolovok1.xml" value="0.1796875" />
+        <entry key="..\:/Users/marci/AndroidStudioProjects/RPM/app/src/main/res/layout/activity_zagolovok_glavnai_gruppi.xml" value="0.17753623188405798" />
+        <entry key="..\:/Users/marci/AndroidStudioProjects/RPM/app/src/main/res/layout/activity_zagolovok_glavnai_kabinet.xml" value="0.165625" />
+        <entry key="..\:/Users/marci/AndroidStudioProjects/RPM/app/src/main/res/layout/activity_zagolovok_gruppu.xml" value="0.1796875" />
+        <entry key="..\:/Users/marci/AndroidStudioProjects/RPM/app/src/main/res/layout/activity_zagolovok_kabinet.xml" value="0.1796875" />
+        <entry key="..\:/Users/marci/AndroidStudioProjects/RPM/app/src/main/res/layout/activity_zagolovok_polzovatela.xml" value="0.1796875" />
+        <entry key="..\:/Users/marci/AndroidStudioProjects/RPM/app/src/main/res/layout/activity_zagolovok_predmet.xml" value="0.165625" />
+        <entry key="..\:/Users/marci/AndroidStudioProjects/RPM/app/src/main/res/layout/activity_zagolovok_predmet_po_prepodu.xml" value="0.1796875" />
+        <entry key="..\:/Users/marci/AndroidStudioProjects/RPM/app/src/main/res/layout/activity_zagolovok_predmeti_gruppi.xml" value="0.15353260869565216" />
+        <entry key="..\:/Users/marci/AndroidStudioProjects/RPM/app/src/main/res/layout/activity_zagolovok_prepoda.xml" value="0.22" />
+        <entry key="..\:/Users/marci/AndroidStudioProjects/RPM/app/src/main/res/layout/activity_zagolovok_raspisanie_grupp.xml" value="0.17753623188405798" />
+        <entry key="..\:/Users/marci/AndroidStudioProjects/RPM/app/src/main/res/layout/fragment_blank.xml" value="0.17753623188405798" />
+        <entry key="..\:/Users/marci/AndroidStudioProjects/RPM/app/src/main/res/layout/fragment_fragment1.xml" value="0.17753623188405798" />
+        <entry key="..\:/Users/marci/AndroidStudioProjects/RPM/app/src/main/res/layout/fragment_fragment2.xml" value="0.1" />
+        <entry key="..\:/Users/marci/AndroidStudioProjects/RPM/app/src/main/res/layout/fragment_fragment3.xml" value="0.17753623188405798" />
+        <entry key="..\:/Users/marci/AndroidStudioProjects/RPM/app/src/main/res/layout/fragment_fragment4.xml" value="0.19343065693430658" />
+        <entry key="..\:/Users/marci/AndroidStudioProjects/RPM/app/src/main/res/layout/fragment_fragment5.xml" value="0.165625" />
+        <entry key="..\:/Users/marci/AndroidStudioProjects/RPM/app/src/main/res/layout/fragment_fragment6.xml" value="0.165625" />
+        <entry key="..\:/Users/marci/AndroidStudioProjects/RPM/app/src/main/res/layout/fragment_prosmotr_raspisanie_nedeli.xml" value="0.17753623188405798" />
+        <entry key="..\:/Users/marci/AndroidStudioProjects/RPM/app/src/main/res/menu/mena.xml" value="0.1796875" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

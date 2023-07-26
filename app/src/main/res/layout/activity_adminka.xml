@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Adminka"
+    android:background="#1F75FE">
+
+    <Button
+        android:id="@+id/Gruppa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:text="@string/dobgrupp"
+        android:background="@drawable/knopka"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:onClick="DobavGruppu"/>
+
+    <Button
+        android:id="@+id/Kabinet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dobkabinet"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/knopka"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Gruppa"
+        android:onClick="DobavKabinet"/>
+
+    <Button
+        android:id="@+id/Predmet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dobpredmet"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/knopka"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Kabinet"
+        android:onClick="DobavPredmet"/>
+
+    <Button
+        android:id="@+id/Prepodavatel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dobprepod"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/knopka"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Predmet"
+        android:onClick="DobavPrepodavatela"/>
+
+    <Button
+        android:id="@+id/PredmetPoPrepodu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Добавить предмет преподавателю"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/knopka"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Prepodavatel"
+        android:onClick="PredmetPoPrepodu"/>
+
+    <Button
+        android:id="@+id/PredmetiGruppi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Добавить предмет группе"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/knopka"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/PredmetPoPrepodu"
+        android:onClick="PredmetiGruppi"/>
+
+    <Button
+        android:id="@+id/Rospisanie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Составить расписание"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/knopka"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/PredmetiGruppi"
+        android:onClick="Rospisanie"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        android:onClick="O"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

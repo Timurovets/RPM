@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">RPM</string>
+    <string name="vxodVYchetku">Вход в личный кабинет</string>
+    <string name="login">Логин</string>
+    <string name="parol">Пароль</string>
+    <string name="vxod">Вход</string>
+    <string name="zar"><u>Зарегистрироваться</u></string>
+    <string name="zar2">Зарегистрируйтесь если у вас нет акаунта</string>
+    <string name="GlEk">Главный экран</string>
+    <string name="Registr">Регистрация</string>
+    <string name="adminka">Админка</string>
+    <string name="Fam">Фамилия</string>
+    <string name="Ima">Имя</string>
+    <string name="Otch">Отчество</string>
+    <string name="email">Email</string>
+    <string name="vvodparol">Пароль</string>
+    <string name="povtorparol">Повторить пароль</string>
+    <string name="zareg">Зарегистрировать</string>
+    <string name="otmena">У меня уже усть личный кабинет</string>
+    <string name="dobgrupp">Добавить группу</string>
+    <string name="dobkabinet">Добавить кабинет</string>
+    <string name="dobpredmet">Добавить предмет</string>
+    <string name="dobprepod">Добавить преподавателя</string>
+    <string name="dobpolzov">Просмотреть информацию пользователей</string>
+    <string name="dobgruppa">Добавление группы</string>
+    <string name="nastroiki">Настройки</string>
+    <string name="dobavprepoda">Добавить преподователя</string>
+    <string name="dobavpr">Добавить преподавателя</string>
+    <string name="izmenitpr">Изменить преподавателя</string>
+    <string name="ydalitpr">Обнулить пароль</string>
+    <string name="spisokprepodov">Список преподавателей</string>
+
+    <string-array name="vid_kabineta">
+        <item>Лекционный</item>
+        <item>Компьютерный</item>
+        <item>Производственный</item>
+    </string-array>
+
+    <string-array name="dni_nedeli">
+        <item>Понедельник</item>
+        <item>Вторник</item>
+        <item>Среда</item>
+        <item>Четверг</item>
+        <item>Пятница</item>
+        <item>Суббота</item>
+    </string-array>
+
+    <string-array name="zvet_nedeli">
+        <item>Зеленая</item>
+        <item>Красная</item>
+        <item>Общая</item>
+    </string-array>
+    <string name="title_activity_prosmotr_raspisanie_nedeli">ProsmotrRaspisanieNedeli</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

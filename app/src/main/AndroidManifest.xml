@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.android.example.rpm">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.RPM"
+        tools:targetApi="31">
+        <activity
+            android:name=".GlavnaiOblast.ZagolovokGlavnaiKabinet"
+            android:exported="false" />
+        <activity
+            android:name=".GlavnaiOblast.GlavnaiKabinet"
+            android:exported="false">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".GlavnaiOblast.GlavnaiProsmotrKabineta" />
+        </activity>
+        <activity
+            android:name=".GlavnaiOblast.GlavnaiProsmotrKabineta"
+            android:exported="false" />
+        <activity
+            android:name=".GlavnaiOblast.ZagolovokGlavnaiGruppi"
+            android:exported="false" />
+        <activity
+            android:name=".GlavnaiOblast.GlavnaiProsmotrGrupp"
+            android:exported="false" />
+        <activity
+            android:name=".GlavnaiOblast.GlavnaiGruppa"
+            android:exported="false">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".GlavnaiOblast.GlavnaiProsmotrGrupp" />
+        </activity>
+        <activity
+            android:name=".Raspisanie.DobavRaspisanieNedeli"
+            android:exported="false">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Raspisanie.RaspisanieNedeli" />
+        </activity>
+        <activity
+            android:name=".Raspisanie.RaspisanieNedeli"
+            android:exported="false">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Raspisanie.ProsmotrRaspisanieGrupp" />
+        </activity>
+        <activity
+            android:name=".Raspisanie.ZagolovokRaspisanieGrupp"
+            android:exported="false" />
+        <activity
+            android:name=".Splash_Screen$ZagolovokRaspisanieGrupp"
+            android:exported="false" />
+        <activity
+            android:name=".Raspisanie.ProsmotrRaspisanieGrupp"
+            android:exported="false">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Adminka" />
+        </activity>
+        <activity
+            android:name=".PredmetiGruppi.ProsmotrPredmetiGruppi"
+            android:exported="false"
+            android:theme="@style/Splash">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".PredmetiGruppi.ProsmotrGrupp" />
+        </activity>
+        <activity
+            android:name=".PredmetiGruppi.ZagolovokPredmetiGruppi"
+            android:exported="false" />
+        <activity
+            android:name=".PredmetiGruppi.ProsmotrGrupp"
+            android:exported="false">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Adminka" />
+        </activity>
+        <activity
+            android:name=".PredmetiGruppi.DobavPredmetiGruppi"
+            android:exported="false">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".PredmetiGruppi.ProsmotrPredmetiGruppi" />
+        </activity>
+        <activity
+            android:name=".PredmetPoPrepodu.Zagolovok1"
+            android:exported="false" />
+        <activity
+            android:name=".PredmetPoPrepodu.ProsmotrPrepodov"
+            android:exported="false">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Adminka" />
+        </activity>
+        <activity
+            android:name=".PredmetPoPrepodu.ZagolovokPredmetPoPrepodu"
+            android:exported="false" />
+        <activity
+            android:name=".PredmetPoPrepodu.DobavPredmetPoPrepodu"
+            android:exported="false">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".PredmetPoPrepodu.ProsmotrPredmetPoPrepodu" />
+        </activity>
+        <activity
+            android:name=".PredmetPoPrepodu.ProsmotrPredmetPoPrepodu"
+            android:exported="false">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".PredmetPoPrepodu.ProsmotrPrepodov" />
+        </activity>
+        <activity
+            android:name=".Predmet.ZagolovokPredmet"
+            android:exported="false" />
+        <activity
+            android:name=".Predmet.ProsmotrPredmet"
+            android:exported="false"
+            android:label="Список предметов">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Adminka" />
+        </activity>
+        <activity
+            android:name=".Predmet.DobavPredmet"
+            android:exported="false">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Predmet.ProsmotrPredmet" />
+        </activity>
+        <activity
+            android:name=".Gruppa.ZagolovokGruppu"
+            android:exported="false" />
+        <activity
+            android:name=".Gruppa.ProsmotrGruppu"
+            android:exported="false"
+            android:label="Список групп">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Adminka" />
+        </activity>
+        <activity
+            android:name=".Kabinet.ZagolovokKabinet"
+            android:exported="false" />
+        <activity
+            android:name=".Kabinet.DobavKabinet"
+            android:exported="false"
+            android:label="Добавить кабинет"
+            android:parentActivityName=".Kabinet.ProsmotrKabinet">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Kabinet.ProsmotrKabinet" />
+        </activity>
+        <activity
+            android:name=".Kabinet.ProsmotrKabinet"
+            android:exported="false"
+            android:label="Список кабинетов">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Adminka" />
+        </activity>
+        <activity
+            android:name=".Prepod.ZagolovokPrepoda"
+            android:exported="false" />
+        <activity
+            android:name=".Prepod.ProsmotrPrepoda"
+            android:exported="false"
+            android:label="@string/spisokprepodov"
+            android:launchMode="singleTop">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Prepod.ProsmotrPrepoda" />
+        </activity>
+        <activity
+            android:name=".Prepod.DobavPrepoda"
+            android:exported="false"
+            android:label="@string/dobavprepoda"
+            android:parentActivityName=".Prepod.ProsmotrPrepoda">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Prepod.ProsmotrPrepoda" />
+        </activity>
+        <activity
+            android:name=".Gruppa.DobavGruppu"
+            android:exported="false"
+            android:label="@string/dobgruppa">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Gruppa.ProsmotrGruppu" />
+        </activity>
+        <activity
+            android:name=".GlavnaiOblast.Nastroiki"
+            android:exported="false"
+            android:label="@string/nastroiki" />
+        <activity
+            android:name=".Adminka"
+            android:exported="false"
+            android:label="@string/adminka" />
+        <activity
+            android:name=".GlavnaiOblast.Glavnai"
+            android:exported="false"
+            android:label="@string/GlEk" />
+        <activity
+            android:name=".Register"
+            android:exported="false"
+            android:label="@string/Registr" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/vxodVYchetku">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

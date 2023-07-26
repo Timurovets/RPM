@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_glavnai"
+        android:title="Главная"
+        android:orderInCategory="110"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/action_glavnai_gruppa"
+        android:title="Расписание группы"
+        android:orderInCategory="120"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/action_glavnai_kabinet"
+        android:title="Свободный кабинет"
+        android:orderInCategory="130"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/action_nastroiki"
+        android:title="Настройки"
+        android:orderInCategory="140"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/action_vixod"
+        android:title="Выход"
+        android:orderInCategory="150"
+        app:showAsAction="never"
+        />
+</menu>
